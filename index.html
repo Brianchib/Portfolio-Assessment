@@ -2,7 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="main.css"
+media="screen" />
+ <link rel="stylesheet" href="mobile.css"
+media="screen and (max-width: 800px)" />
+ <link rel="stylesheet" href="desktop.css"
+media="screen and (min-width: 800px)" />
 <title>My Personal Website</title>  
     <!--using-FontAwesome--->  
 <script src="https://kit.fontawesome.com/c8e4d183c2.js"
@@ -28,6 +33,18 @@ crossorigin="anonymous"></script>
 
         </ul>
         </nav>
+        <nav>
+            <div class="menu">
+                <button>MENU</button>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>About</li>
+                    <li><a href="contact.html">Info</a></li>
+                    <li>Settings</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+        </nav>
         <div class="text-container">
             <p>Hello</p>
             <p>My name is BRIAN</p>
@@ -37,7 +54,7 @@ crossorigin="anonymous"></script>
             <button><a href="cv.html" class="down-cv">Download my CV</button>
             </div>
         <!--model------------------------------->
-            <img src="profile.jpg" class="model" alt="model">
+            <img src="profile.jpg" class="model" alt="model" >
         </div>
         </section>
         <div class="contact-me">
