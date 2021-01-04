@@ -16,10 +16,46 @@
     border-bottom: 0.2em solid white;
      border-radius: 0.1em;    
      overflow: hidden;
-     transition: 0.2s;  
+     transition: 0.2s; 
 }
 .shownav:hover{
     color: black;
     background: rgb(10, 10, 10);
     box-shadow: 2px 2px 2px 2px black;
+}
+.options{
+    position: relative;
+}
+.options ul{
+    width: 100px;
+    height: 800px;
+    justify-content: space-evenly;
+    background: lightblue;
+    border-radius: 5px;
+    flex-direction: vertical;
+    list-style: none;
+    align-items: left;
+    text-align: left;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: all 0.5s ease-in-out;
+}
+.options a{
+    color: white;
+    text-decoration: none;
+    pointer-events: all;
+}
+.options li:hover{
+    background: black;
+    width: 100%;
+}
+.options button:hover{
+    color: white;
+    background: black;
+}
+.options button:focus + ul{
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0px);
 }
