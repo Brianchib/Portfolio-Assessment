@@ -109,8 +109,8 @@ button:active{
     align-items: center;
 }
 .p-container1{
-    width:200px;
-    height:250px;
+    width:600px;
+    height:350px;
     background-color:#FFFFFF;
     border-radius:20px;
     box-shadow:2px 2px 12px rgba(0,0,0,0.2);
